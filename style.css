@@ -1,0 +1,87 @@
+/*Importing Google Font - Inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+*{
+  font-family: "Inter" , sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #0056b3;
+  --background-color: #f4f4f9;
+  --white: #ffffff;
+  --text-color: #333;
+}
+
+#pomodoro .container {
+  transition: all 0.3s ease;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: var(--white);
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+#pomodoro h1 {
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#pomodoro .timer-display {
+  font-family: 'Courier New', monospace;
+  font-size: 4rem;
+  color: var(--primary-color);
+  margin: 30px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#pomodoro .controls button {
+  margin: 0 10px;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+#pomodoro .controls button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#pomodoro .options button {
+  background-color: var(--secondary-color);
+  color: var(--white);
+  margin: 0 5px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+#pomodoro .options button:hover {
+  background-color: var(--primary-color);
+}
+
+#pomodoro .stats {
+  background-color: var(--background-color);
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+#pomodoro .stats h3 {
+  color: var(--text-color);
+  font-size: 1.1rem;
+}
+
+
+  
